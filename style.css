@@ -1,0 +1,91 @@
+* {
+    font-family: monocraft;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar .link {
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: all ease-in 0.4s;
+}
+
+.navbar .link:hover{
+    color: gold;
+    border-bottom: 2px solid gold;
+    transition: all ease-out 0.4s;
+}
+
+.navbar .btn-contact {
+    text-decoration: none;
+    color: #fff;
+    background-color:gold;
+    border-radius: 20px 2px 20px 20px;
+    padding: 8px 24px 10px 24px;
+}
+
+/* hero */
+
+#hero {
+    padding-top: 175px;
+    height: 100vh;
+}
+
+#hero h4{
+    font-weight: 500;
+    color: gold;
+}
+
+#hero h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+#hero .btn-hire{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: gold;
+    border-radius: 8px;
+    padding: 10px 40px;
+    text-decoration: none;    
+    transition: all ease-in 0.4s;
+}
+
+#hero .btn-hire:hover{
+    background-color: goldenrod;
+    transition: all ease-out 0.4s;
+}
+
+#hero i{
+    color:gold;
+    text-shadow: 0px 0 5px gold;
+}
+
+/* jasa */
+#jasa {
+    padding-top: 100px;
+}
+
+#jasa .card{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* about */
+#about {
+    padding-top: 100px;
+}
+
+/* portfolio */
+#portfolio {
+    padding-top: 100px;
+}
